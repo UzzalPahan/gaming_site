@@ -29,9 +29,8 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .nav > h1 {
   font-size: 35px;
-  font-family: sans-serif;
 }
-.nav > h1 > .blue {
+.blue {
   color: #ff42a5;
 }
 
@@ -243,4 +242,195 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 .online_game_container >.play_game> .overlay > p{
   color: #F948B2;
   padding-top: 10px;
+}
+
+
+/* -----------play instantly -------------- */
+.instant_section{
+  max-width: 1100px;
+  margin: 120px auto;
+}
+
+.instant_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.instant_text {
+  padding-left: 140px;
+}
+.instant_text > h2{
+  text-align: right;
+  font-size: 2.5em;
+}
+.instant_text > p{
+  text-align: right;
+  padding: 20px 0;
+}
+.instant_img{
+  
+  position: relative;
+}
+.instant_img > .parent_img{
+  width: 400px;
+}
+.instant_img > .child_img{
+  position: absolute;
+  bottom: -55px;
+  left: -80px;
+  width: 200px
+}
+
+.flex{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* -------------careers --------------- */
+
+.careers_section{
+  background-color: #ff42a5;
+}
+.career_container{
+  
+  max-width: 1100px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;;
+}
+.career_text > h2{
+  text-align: left;
+  color: #fff;
+  font-size: 2.3rem;
+  padding: 10px 0;
+}
+
+.careers_description{
+  text-align: left;
+  color: #ddd;
+}
+.flex-text{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  color: #fff;
+}
+.list{
+  text-align: left;
+  line-height: 25px;
+}
+.list_two{
+  text-align: right;
+  margin-right: 3px;
+  line-height: 25px;
+
+}
+.career_img > img{
+  width: 600px;
+  height: 100%;
+}
+.position_btn{
+  padding: 10px 30px;
+  float: left;
+  border-radius: 20px;
+  text-transform: uppercase;
+  border: none;
+  color: #ff42a5;
+  font-weight: 700;
+}
+
+      /* -----------games list ------------  */
+.game_list{
+  width: 1100px;
+  margin: 40px auto;
+}
+.list_container_one{
+  display: flex;
+  justify-content: center;
+}
+.list_container_two{
+  display: flex;
+  justify-content: center;
+}
+.G_list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 10px;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+.G_list > img{
+  width: 40px;
+  padding-right: 10px
+}
+.list > h3{
+  font-size: 15px;
+}
+.G_list:hover{
+  border: 2px solid #F948B2;
+  border-radius: 30px;
+  overflow: hidden;
+  margin: 20px 10px;
+
+}
+
+/* -------------- Footer Section -------------  */
+footer{
+  background: #0B0223;
+}
+.footer_container{
+  width: 1100px;
+  margin: auto;
+  padding: 40px 0;
+}
+.brand{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.brand > img{
+  height: 40px;
+  padding-right: 10px;
+}
+.brand > h2{
+  font-size: 35px;
+}
+
+.company_policy{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company_policy > li{
+  color: #fff;
+  list-style: none;
+  padding: 45px 30px;
+}
+
+.social_media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social_media > img{
+  padding: 10px 15px;
+  width: 70px;
+  height: 60px;
+}
+.color > li{
+  color: #bbb4b4;
+}
+.copyright p{
+  color: #bbb4b4; 
+  text-align: center;
 }
