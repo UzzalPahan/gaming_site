@@ -219,11 +219,11 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
   width: 245px;
   height: 300px;  
 }
-.online_game_container >.play_game> .overlay {
+.online_game_container >.play_game:hover .overlay {
   position: absolute;
+  overflow: hidden;
   width: 245px;
   height: 300px;
-  border-radius: 16px;
   background: #000;
   top: 0;
   left: 0;
@@ -233,7 +233,6 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  opacity: 1px;
   
 }
 .online_game_container >.play_game> .overlay > img{
@@ -279,6 +278,26 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
   bottom: -55px;
   left: -80px;
   width: 200px
+}
+.instant_img > .child_img_two{
+  position: absolute;
+  bottom: -55px;
+  right: -80px;
+  width: 200px
+}
+.instant_text_two {
+  padding-right: 140px;
+}
+.instant_text_two > h2{
+  text-align: left;
+  font-size: 2.5em;
+}
+.instant_text_two > p{
+  text-align: left;
+  padding: 20px 0;
+}
+.dark{
+  color: #BF50D2;
 }
 
 .flex{
@@ -369,7 +388,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
   width: 40px;
   padding-right: 10px
 }
-.list > h3{
+.G_list > h3{
   font-size: 15px;
 }
 .G_list:hover{
@@ -377,6 +396,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
   border-radius: 30px;
   overflow: hidden;
   margin: 20px 10px;
+  color: #F948B2;
 
 }
 
