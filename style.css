@@ -8,10 +8,12 @@
 /* ------------Header Section ---------------- */
 
 header {
-  max-width: 1100px;
-  margin: 0 auto;
+  background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .header_section {
+  max-width: 1100px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -66,7 +68,6 @@ header {
   background-repeat: no-repeat;
   background-position: fixed;
   background-size: 50%;
-  min-height: 100vh;
 }
 .banner_container{
   width: 1100px;
@@ -125,4 +126,58 @@ header {
 
 .banner_img img{
   width:500px;
+  height: 100%;
+  margin-bottom: -5px;
+}
+
+
+/* ---------we are gamer section -----------  */
+.we_are_gamer{
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  max-width: 100%;
+  padding: 40px 0;
+}
+.gamer_container{
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gamer_image > img{
+  width: 600px;
+}
+.gamer_text{
+  text-align: right;
+}
+.gamer_text > h2{
+  font-size: 2.5em;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.gamer_text > .gamer_description{
+  padding: 15px 0;
+  font-size: 0.9em;
+  line-height: 25px;
+
+}
+.gamer_text > .primary_button{
+  margin-top: 10px;
+  padding: 10px 25px;
+  font-size: 1rem;
+  background-color: #ff42a5;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+.gamer_text > .purpose{
+  font-size: 1rem;
+  padding: 20px 0;
+}
+.gamer_text > .purpose > .special{
+  font-size: 1.5em;
+  font-weight: bold;
 }
