@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ------------Header Section ---------------- */
+
+header {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.header_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav > img {
+  height: 40px;
+  padding-right: 10px;
+}
+.nav > h1 {
+  font-size: 35px;
+  font-family: sans-serif;
+}
+.nav > h1 > .blue {
+  color: #ff42a5;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu > ul {
+  display: flex;
+}
+.menu > ul > li {
+  padding: 0 10px;
+  list-style: none;
+  font-weight: 500;
+}
+.menu > ul > li > a {
+  text-decoration: none;
+
+  color: #000;
+}
+
+.follow_us {
+  background-color: #ddd;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
