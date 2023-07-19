@@ -134,14 +134,13 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 /* ---------we are gamer section -----------  */
 .we_are_gamer{
   background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-  max-width: 100%;
   padding: 40px 0;
 }
 .gamer_container{
-  width: 1100px;
+  width: 1150px;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 .gamer_image > img{
@@ -180,4 +179,68 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 .gamer_text > .purpose > .special{
   font-size: 1.5em;
   font-weight: bold;
+}
+
+
+/* ------------ Online game section ------------- */
+
+.online_games{
+  max-width: 1100px;
+  margin: 60px auto;
+}
+.online_games > .title{
+  text-align: center;
+  padding: 40px 0;
+}
+.online_games > .title > h2{
+  font-size: 2.3em;
+}
+.online_games > .title > h2 > .blue{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.online_games > .title > p{
+  padding: 10px 0;
+}
+.online_game_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.online_game_container > .play_game > p{
+  padding-top: 10px;
+}
+.online_game_container > .play_game  {
+  position: relative;
+}
+.online_game_container > .play_game >  img{
+  width: 245px;
+  height: 300px;  
+}
+.online_game_container >.play_game> .overlay {
+  position: absolute;
+  width: 245px;
+  height: 300px;
+  border-radius: 16px;
+  background: #000;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  opacity: 1px;
+  
+}
+.online_game_container >.play_game> .overlay > img{
+  width: 40px;
+}
+.online_game_container >.play_game> .overlay > p{
+  color: #F948B2;
+  padding-top: 10px;
 }
